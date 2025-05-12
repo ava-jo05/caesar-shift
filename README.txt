@@ -35,7 +35,7 @@ To checkout a specific test case, run:
 python -m unittest test_caesar_shift.TestCaesarShift.<test_method>
 
 For example:
-python -m unittest test_caesar_shift.TestCaesarShift.test_encrypt_1
+>>> python -m unittest test_caesar_shift.TestCaesarShift.test_encrypt_1
 
 The above line runs the first encryption test case where the message is "ABC" and the shift is 3. 
 
